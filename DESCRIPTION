@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Jules L. Ellis
 Maintainer: <j.ellis@psych.ru.nl>
 Description: Contains a function to compute the costs of an exam by c(t) = S*F(t) + t, as defined in the paper.
-Contains a function to minimize these costs in t. Contains functions that produce the tables and plots of the paper.
+    Contains a function to minimize these costs in t. Contains functions that produce the tables and plots of the paper.
 License: Unlimited
 Encoding: UTF-8
 LazyData: true
