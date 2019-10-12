@@ -6,7 +6,7 @@ examcosts(t,S,a,mu,sigma1,rho1)
 }
 \arguments{
   \item{t}{duration}
-  \item{S}{cost factor}
+  \item{S}{costs quotient}
   \item{a}{cutoff}
   \item{mu}{mean}
   \item{sigma1}{original SD}
@@ -14,7 +14,9 @@ examcosts(t,S,a,mu,sigma1,rho1)
 }
 \value{Costs of exam}
 \description{
-Used in the paper.
+Can be used to computed the normed costs as defined in the paper, S*F(t) + t,
+where S is the costs quotient, and F(t) is the probability if incorrect failing in an exam with duration t, mean mu,
+standard deviaton sigma1 at t=1, reliability rho1 at t=1, and cutoff a.
 }
 \examples{
 examcosts(1, 20, 5.5,5.8,2, 0.5)

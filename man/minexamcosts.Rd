@@ -11,7 +11,8 @@ minexamcosts(S,a,mu,sigma1,rho1)
   \item{sigma1}{original SD}
   \item{rho1}{original reliability}
 }
-\value{Minimized costs of exam}
+\value{List (topt, ropt, copt), where topt = value of t that minimizes the costs,
+ropt = value of the reliability if t = topt, copt = costs if t = topt}
 \description{
 Used in the paper.
 }
